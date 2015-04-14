@@ -69,6 +69,11 @@
 
 }
 
+// @extend
+
+.border-spacing {
+    margin: 15px 0px;
+}
 
 /********** Beginning Web **********/
 
@@ -99,22 +104,79 @@ header #title {
     float:left;
     font-family:'bebas-bold', sans-serif;
     font-size:50px;
-    line-height:100px;
+    line-height:130px;
     color:#adadad;
 }
 
 header #logo {
+    margin-top:20px;
     text-align:right;
-    font-size:45px;
-    font-family:'bebas-bold', sans-serif;
-    line-height:100px;
     float:right;
     color:#adadad;
 }
 
-nav {
-    background:#000;
-    background:rgba(0, 0, 0, 0.3);
-    height:90px;
+#slider {
+    background:rgb(65, 65, 65);
+    height:270px;
+}
+
+.row {
+    max-width:$width;
+    margin:auto;
+    padding:0px;
+}
+
+.col-md-8 {
+    padding:0px;
+    background:red;
+    @extend .border-spacing;
+    height:$block_height;
+}
+
+.col-md-4 {
+    padding:0px;
+    background:green;
+    @extend .border-spacing;
+    height:$block_height;
+}
+
+.cols-out {
+    overflow:hidden;
+    height:304px;
+}
+
+.cols-out:hover .cols {
+    margin-top:-304px;
+}
+
+.cols {
+    background:black;
     width:100%;
+    height:304px;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+.cols-overlay {
+    background:white;
+    width:100%;
+    height:304px;
+}
+
+footer {
+    width:100%;
+    height: 50px;
+}
+
+// 304 x 304
+// 632 x 304
+
+footer p {
+    line-height:40px;
+    text-align:center;
+    font-family: 'modern', sans-serif;
+    font-size:14px;
+    color:rgb(120, 120, 120);
 }
