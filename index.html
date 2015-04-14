@@ -55,12 +55,13 @@
         <script src="js/jquery-ui.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/functions.js"></script>
+        <script src="js/jquery.hcaptions.js"></script>
         
-        <!-- bxSlider Javascript file -->
-        <script src="jquery.bxslider/jquery.bxslider.min.js"></script>
-        
-        <!-- bxSlider CSS file -->
-        <link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+        <script>
+        $(window).load(function(){
+            $('.hcaption').hcaptions();
+        });
+        </script>
     </head>
     <body>
         <div id="wrapper">
@@ -73,14 +74,14 @@
             
             </nav>
             <div id="slider">
-                <ul class="bxslider">
-                    <li><img src="imgs/slider/electric.jpg" /></li>
-                    <li><img src="imgs/slider/Panorama.jpg" /></li>
-                </ul>
+            
             </div>
             <div class="row">
                 <div class="col-md-8 cols-out">
-                    <div class="cols">f</div>
+                    <div class="cols">
+                        <p>About Skills USA</p>
+                        <img src="imgs/box-imgs/arch.jpg" />
+                    </div>
                     <div class="cols-overlay">f</div>
                 </div>
                 <div class="col-md-4 cols-out">
@@ -90,7 +91,10 @@
             </div>
             <div class="row">
                 <div class="col-md-8 cols-out">
-                    <div class="cols">f</div>
+                    <div class="cols">
+                        <p>About Skills USA</p>
+                        <img src="imgs/box-imgs/construction.jpg" />
+                    </div>
                     <div class="cols-overlay">f</div>
                 </div>
                 <div class="col-md-4 cols-out">
@@ -115,11 +119,6 @@
             <footer>
                 <p> &copy; Benson High School 2015 </p>
             </footer>
-            <script>
-                $(document).ready(function(){
-                    $('.bxslider').bxSlider();
-                });
-            </script>
         </div>
     </body>
 </html>
