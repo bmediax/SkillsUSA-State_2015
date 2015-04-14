@@ -67,7 +67,8 @@ header #logo {
 
 #slider {
   background: #414141;
-  height: 270px; }
+  height: 304px;
+  padding-top: 0px; }
 
 .row {
   max-width: 1240px;
