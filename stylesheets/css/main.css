@@ -99,7 +99,6 @@ header #logo {
 
 .col-md-4 {
   padding: 0px;
-  background: red;
   height: 250px;
   margin: 7px 0px !important;
   border-right: 0px; }
@@ -193,5 +192,32 @@ footer p {
 #o-wrapper {
   min-height: 500px;
   width: 1020px; }
+
+#media-icons {
+  float: right;
+  margin-top: -15px; }
+
+#media-icons a {
+  text-decoration: none; }
+
+.fa {
+  display: inline-block;
+  border: 2px solid #337ab7;
+  border-radius: 50%;
+  padding: 6px 7px;
+  height: 30px;
+  width: 30px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin-right: 5px; }
+
+.fa:hover {
+  color: red;
+  border: 2px solid red; }
+
+.fa-facebook {
+  padding-left: 8px; }
 
 /*# sourceMappingURL=main.css.map */
