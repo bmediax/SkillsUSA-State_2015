@@ -20,7 +20,7 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/css/animate.min.css" />
         <link rel="stylesheet" type="text/css" href="stylesheets/css/foundation.min.css" />
         <link rel="stylesheet" type="text/css" href="stylesheets/css/video-js.min.css" />
-        <link rel="stylesheet" type="text/css" href="stylesheets/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="stylesheets/css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="stylesheets/css/jquery.mCustomScrollbar.css" />
         <link rel="stylesheet" type="text/css" href="stylesheets/css/main.css" />
         <link rel="stylesheet" type="text/css" href="stylesheets/css/responsive.css" />
@@ -53,8 +53,8 @@
         <!-- jQuery & javascript -->
         <script src="js/jquery.js"></script>
         <script src="js/jquery-ui.js"></script>
-        <script src="js/bootstrap.min.js"></script>
         <script src="js/functions.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
     </head>
     <body>
         <!-- Wraps Webpage -->
@@ -62,10 +62,14 @@
             <!-- Header ( Title & Logo ) -->
             <header>
                 <!-- Title -->
-                <p id="title"> BENSON <span class="blue-dark">POLYTECHNIC</span> HIGH SCHOOL </p>
+                <a href="index.html">
+                    <p id="title"> <span class="red-hover"> BENSON </span> <span class="blue-dark">POLYTECHNIC</span> <span class="red-hover"> HIGH SCHOOL </span> </p>
+                </a>
                 
                 <!-- Logo -->
-                <img src="imgs/logo.png" id="logo" alt="Logo" />
+                <a href="http://skillsusa.org/">
+                    <img src="imgs/logo.png" id="logo" alt="Logo" />
+                </a>
             </header>
 			<div class="sectiondivider"></div>
             <br>
@@ -73,12 +77,12 @@
             <!-- Webpage Navigation -->
             <nav>
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">COMPETITION</a></li>
-                    <li><a href="#">NATIONALS</a></li>
-                    <li><a href="#">STATE</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="competition.html">COMPETITION</a></li>
+                    <li><a href="nationals.html">NATIONALS</a></li>
+                    <li><a href="state.html">STATE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
             
@@ -89,7 +93,7 @@
             <div class="row">
                 
                 <!-- Colummn -->
-                <a href="#">
+                <a href="about.html">
                     <div class="col-md-8 cols-out">
                         <div class="cols">
                             <p>About Skills USA</p>
@@ -98,13 +102,13 @@
                         
                         <!-- Hover Instance Description -->
                         <div class="cols-overlay">
-                            <p>SkillsUSA is a nationalized group of students, teachers, and professionals in technical industries. They are dedicated to improving the next generation of workers. Read more... </p>
+                            <p>SkillsUSA is a nationalized group of students, teachers, and professionals in technical industries. They are dedicated to improving the next generation of workers. <span class="red">Read more...</span></p>
                         </div>
                     </div>
                 </a>
                 
                 <!-- Colummn -->
-                <a href="#">
+                <a href="competition.html">
                     <div class="col-md-4 cols-out">
                         <div class="cols">
                             <p>Competitions</p>
@@ -113,7 +117,7 @@
                         
                         <!-- Hover Instance Description -->
                         <div class="cols-overlay">
-                            <p>SkillsUSA hosts yearly state and national competitions for the best students in a variety of fields. Read more…</p>
+                            <p>SkillsUSA hosts yearly state and national competitions for the best students in a variety of fields. Read more</p>
                         </div>
                     </div>
                 </a>
@@ -123,7 +127,7 @@
             <div class="row">
                 
                 <!-- Colummn -->
-                <a href="#">
+                <a href="state.html">
                     <div class="col-md-8 cols-out">
                         <div class="cols">
                             <p>State Competition</p>
@@ -138,7 +142,7 @@
                 </a>
                 
                 <!-- Colummn -->
-                <a href="#">
+                <a href="nationals.html">
                     <div class="col-md-4 cols-out">
                         <div class="cols">
                             <p>National Competitions</p>
@@ -147,7 +151,7 @@
                         
                         <!-- Hover Instance Description -->
                         <div class="cols-overlay">
-                            <p>The 2015 national SkillsUSA competition will take place June 22nd to 26th, in Louisville, Kentucky. Read more…</p>
+                            <p>The 2015 national SkillsUSA competition will take place June 22nd to 26th, in Louisville, Kentucky. <br>Read more</p>
                         </div>
                     </div>
                 </a>
@@ -155,10 +159,14 @@
             
             <!-- 3rd Row with 1/3 & 1/3 & 1/3 -->
             <div class="row">
+                <!-- add a tags!!!!!!!!  -->
                 
                 <!-- Colummn -->
-                <div class="col-md-4 cols-out">
-                    <div class="cols">Upcoming Events</div>
+                <div class="col-md-4 cols-out cols-margin">
+                    <div class="cols">
+                        <p>Upcoming Events</p>
+                        <img src="imgs/box-imgs/electric.jpg" alt="Eletric Image" />
+                    </div>
                     
                     <!-- Hover Instance Description -->
                     <div class="cols-overlay">
@@ -169,8 +177,11 @@
                 </div>
                 
                 <!-- Colummn -->
-                <div class="col-md-4 cols-out">
-                    <div class="cols">Advisor & Membership</div>
+                <div class="col-md-4 cols-out cols-margin">
+                    <div class="cols">
+                        <p> Advisors & Membership </p>
+                        <img src="imgs/box-imgs/electric.jpg" alt="Eletric Image" />
+                    </div>
                     
                     <!-- Hover Instance Description -->
                     <div class="cols-overlay">
@@ -179,8 +190,11 @@
                 </div>
                 
                 <!-- Colummn -->
-                <div class="col-md-4 cols-out">
-                    <div class="cols">Contact</div>
+                <div class="col-md-4 cols-out cols-margin" style="padding-right:0px !important;">
+                    <div class="cols">
+                        <p>Contact</p>
+                        <img src="imgs/box-imgs/electric.jpg" alt="Eletric Image" />
+                    </div>
                     
                     <!-- Hover Instance Description -->
                     <div class="cols-overlay">
@@ -193,6 +207,13 @@
             <footer>
                 <p> &copy; Benson High School 2015 </p>
             </footer>
+            <script>
+                $("#slider").backstretch([
+      "http://dl.dropbox.com/u/515046/www/outside.jpg"
+    , "http://dl.dropbox.com/u/515046/www/garfield-interior.jpg"
+    , "http://dl.dropbox.com/u/515046/www/cheers.jpg"
+  ], {duration: 3000, fade: 750});
+            </script>
         </div>
     </body>
 </html>
