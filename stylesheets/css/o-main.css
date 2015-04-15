@@ -22,9 +22,50 @@ h1 {
 
 p.content {
 	font-family: "modern", sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 24px;
 	word-spacing: -4px;
 	padding-top: 20px;
 	padding-right: 20px;
+}
+
+#contact-area {
+	width: auto;
+    margin: 0 5% 360px 5%;
+    position: relative;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	font-family: 'modern', sans-serif;
+	font-size: 14px;
+	margin: -34px 0px 10px 100px;
+	border: 2px solid #ccc;
+    height: 32px;
+    width: 660px;
+    border-radius: 4px;
+}
+
+#contact-area textarea {
+	height: 120px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #2d538e;
+    opacity: .8;
+}
+
+#contact-area input.submit-button {
+    margin: 10px 160px 0 0;
+	width: 80px;
+	float: right;
+}
+
+label {
+	margin: 0 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.8em;
+    font-weight: normal;
+    font-family: 'bebas', sans-serif;
 }
