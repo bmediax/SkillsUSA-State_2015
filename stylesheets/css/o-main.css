@@ -1,15 +1,30 @@
-.red-link {
+a.red-link {
     color:#9c2530;
-    
-    &:hover {
-        color:#de2c3c;
-    }
+}
+a.red-link:hover {
+	color:#de2c3c;
+	text-decoration: none;
 }
 
-.blue-link {
-    color:#0f2e5c;
-    
-    &:hover {
-        color:#2d538e;
-    }
+a.blue-link {
+    color:#2d538e;
+}
+a.blue-link:hover {
+	color:#0daafe;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: "bebas-bold";
+	sans-serif;
+	margin-top: -20px;
+}
+
+p.content {
+	font-family: "modern", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	word-spacing: -4px;
+	padding-top: 20px;
+	padding-right: 20px;
 }
