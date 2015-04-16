@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #o-wrapper {
     width:  1020px;
 }
@@ -6,8 +7,21 @@ a.red-link{
     color:#9c253f;
 }
 
+=======
+a.red-link{
+    color:#9c253f;
+}
+>>>>>>> 2f920ffb3a24a927fb5ecb4ec528bc32a8d28e9c
 a.red-link:hover{
 	color:#de2c3c;
+	text-decoration: none;
+}
+
+span.red-link{
+    color:#de2c3c;
+}
+span.red-link:hover {
+	color:#9c253f;
 	text-decoration: none;
 }
 
@@ -20,9 +34,19 @@ a.blue-link:hover {
 	text-decoration: none;
 }
 
+<<<<<<< HEAD
 .cols-out {
     padding-right:15px;
     height:224px;
+=======
+#o-wrapper img {
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    padding:0px;
+    margin-top:-30px;
+    margin-bottom:-30px;
+>>>>>>> 2f920ffb3a24a927fb5ecb4ec528bc32a8d28e9c
 }
 
 h1 {
