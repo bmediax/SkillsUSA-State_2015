@@ -1,8 +1,16 @@
-a.red-link {
-    color:#9c2530;
+a.red-link{
+    color:#9c253f;
 }
-a.red-link:hover {
+a.red-link:hover{
 	color:#de2c3c;
+	text-decoration: none;
+}
+
+span.red-link{
+    color:#de2c3c;
+}
+span.red-link:hover {
+	color:#9c253f;
 	text-decoration: none;
 }
 
