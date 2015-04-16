@@ -26,6 +26,7 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/css/responsive.css" />
         <link rel="stylesheet" type="text/css" href="stylesheets/css/nav.css" />
         <link rel="stylesheet" type="text/css" href="stylesheets/css/o-main.css" />
+        <link rel="stylesheet" type="text/css" href="gallery/lightbox.css">
         
         <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="57x57" href="imgs/icons/apple-icon-57x57.png">
@@ -47,15 +48,19 @@
         <meta name="theme-color" content="#ffffff">
         <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
         
-        <!-- Mobile -->
+<!--
+         Mobile 
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="HandheldFriendly" content="true">
+-->
         
         <!-- jQuery & javascript -->
         <script src="js/jquery.js"></script>
         <script src="js/jquery-ui.js"></script>
         <script src="js/functions.js"></script>
         <script src="js/jquery.backstretch.min.js"></script>
+        <script src="gallery/js/jquery.hcaptions.js"></script>
+        <script src="gallery/js/lightbox.js"></script>
     </head>
     <body>
         <!-- Wraps Webpage -->
@@ -88,19 +93,61 @@
             <!-- Webpage Navigation -->
             <nav>
                 <ul>
-                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="competition.html">COMPETITION</a></li>
                     <li><a href="nationals.html">NATIONALS</a></li>
                     <li><a href="state.html">STATE</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
+            
             <!-- Slider -->
             <div id="slider"></div>
             <br>
+            <h1>GALLERY OF STUDENTS</h1>
+			<div class="sectiondivider"></div>
             <div id="o-wrapper">
+                <div id="image-set">
+                    <a class="gallerylink" href="imgs/gallery/img_0356.jpg" data-lightbox="gallery-1" data-title=""><img class="galleryimage" src="imgs/gallery/IMG_0358.JPG" alt=""/></a>
+				    <a class="gallerylink" href="imgs/gallery/IMG_0366.jpg" data-lightbox="gallery-1" data-title=""><img class="galleryimage" src="imgs/gallery/IMG_0366.jpg" alt="" /></a>
+					<a class="gallerylink" href="imgs/gallery/IMG_0423.JPG" data-lightbox="gallery-1" data-title=""><img class="galleryimage" src="imgs/gallery/IMG_0423.JPG" alt="" /></a>
+					<a class="gallerylink" href="imgs/gallery/IMG_0492.JPG" data-lightbox="gallery-1" data-title=""><img class="galleryimage" src="imgs/gallery/IMG_0492.JPG" alt="" /></a>
+                </div>
+                <div id="image-set" style="margin-top:2px;">
+                    <a class="gallerylink" href="imgs/gallery/IMG_0541.JPG" data-lightbox="gallery-1" data-title=""><img class="galleryimage" src="imgs/gallery/img_0541.jpg" alt=""/></a>
+				    <a class="gallerylink" href="imgs/gallery/IMG_0358.JPG" data-lightbox="gallery-1" data-title=""><img class="galleryimage" src="imgs/gallery/IMG_0356.jpg" alt="" /></a>
+					<a class="gallerylink" href="imgs/gallery/IMG_0401.JPG" data-lightbox="gallery-1" data-title=""><img class="galleryimage" src="imgs/gallery/IMG_0401.JPG" alt="" /></a>
+					<a class="gallerylink" href="imgs/gallery/IMG_0451.JPG" data-lightbox="gallery-1" data-title=""><img class="galleryimage" src="imgs/gallery/IMG_0451.JPG" alt="" /></a>
+                </div>
+                <div id="image-set" style="margin-top:2px;">
+                    <a class="gallerylink" href="imgs/gallery/IMG_0502.JPG" data-lightbox="gallery-1" data-title=""><img class="galleryimage" src="imgs/gallery/IMG_502.JPG" alt=""/></a>
+				    <a class="gallerylink" href="imgs/gallery/img_0356.jpg" data-lightbox="gallery-1" data-title=""><img class="galleryimage" src="imgs/gallery/4.jpg" alt="" /></a>
+					<a class="gallerylink" href="imgs/gallery/IMG_0492.JPG" data-lightbox="gallery-1" data-title=""><img class="galleryimage" src="imgs/gallery/4.jpg" alt="" /></a>
+					<a class="gallerylink" href="imgs/gallery/IMG_0502.JPG" data-lightbox="gallery-1" data-title=""><img class="galleryimage" src="imgs/gallery/4.jpg" alt="" /></a>
+                </div>
+                <style>
+                    #image-set{
+                        margin-top: 24px;
+                        width: 100%;
+                        text-align: center;
+                    }
+                    #image-set a img{
+                        height: 120px;
+                        width: auto;
+                        border-radius: 4px;
+                        margin: 6px;
+                        transition: opacity .15s ease-in-out;
+                        -moz-transition: opacity .15s ease-in-out;
+                        -webkit-transition: opacity .15s ease-in-out;
+                    }
 
+                    #image-set a img:hover{
+                        opacity: .8;
+                    }
+                </style>
+			</div>
             </div>
             <div class="sectiondivider"></div>
             <footer>
@@ -110,9 +157,8 @@
             <!-- Slider images -->
             <script>
                 $("#slider").backstretch([
-      "http://dl.dropbox.com/u/515046/www/outside.jpg"
-    , "http://dl.dropbox.com/u/515046/www/garfield-interior.jpg"
-    , "http://dl.dropbox.com/u/515046/www/cheers.jpg"
+      "imgs/slider/1.jpg"
+    , "imgs/slider/4.jpg"
   ], {duration: 3000, fade: 750});
             </script>
         </div>

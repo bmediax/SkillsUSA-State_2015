@@ -143,6 +143,11 @@ header #logo {
     margin-bottom:12px;
 }
 
+.backstretch img {
+    border-top-right-radius: 6px !important;
+    border-top-left-radius: 6px !important;
+}
+
 .row {
     max-width:$width;
     margin:0 auto;
@@ -251,6 +256,12 @@ footer {
 // 304 x 304
 // 632 x 304
 
+.image {
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
 footer p {
     line-height:40px;
     text-align:center;
@@ -304,7 +315,7 @@ footer p {
 }
 
 .fa-facebook {
-    padding-left:8px;
+    padding-left:9px;
 }
 
 img.bugfix-height {

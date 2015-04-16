@@ -5,8 +5,7 @@ nav {
   margin-bottom: -70px;
   z-index: 1000;
   position: relative;
-  border-top-right-radius: 6px;
-  border-top-left-radius: 6px; }
+}
 
 nav ul {
   display: inline;

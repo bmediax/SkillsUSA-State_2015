@@ -39,6 +39,17 @@ p.content {
 	padding-right: 20px;
 }
 
+.cols-overlay ul {
+    margin-top:-10px;
+    margin-left:13px;
+}
+
+.cols-overlay ul li {
+    color:#fff;
+    font-size:15px;
+    padding-right:15px;
+}
+
 #contact-area {
 	width: auto;
     margin: 0 5% 90px 5%;
