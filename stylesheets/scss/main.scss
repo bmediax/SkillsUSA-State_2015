@@ -306,3 +306,16 @@ footer p {
 .fa-facebook {
     padding-left:8px;
 }
+
+img.bugfix-height {
+    height: 100%;
+}
+
+span.red-link {
+    color:#de2c3c;
+}
+
+span.red-link:hover {
+    color:#9c253f;
+    text-decoration: none;
+}
