@@ -96,3 +96,116 @@ label {
     font-weight: normal;
     font-family: 'bebas', sans-serif;
 }
+
+#image-set {
+    margin-top: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+#image-set a img {
+    height: 120px;
+    width: auto;
+    border-radius: 4px;
+    margin: 6px;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+}
+
+#image-set a img:hover {
+    opacity: .8;
+}
+
+.last {
+    margin-right:0px !important;
+    margin-left:10px;
+}
+
+.events_section {
+    width:225px;
+    margin-right:150px;
+    height:200px;
+    display:inline-block;
+    margin-bottom:50px;
+    overflow: hidden;
+    border-radius:6px;
+}
+
+.event {
+    background:#0f2e5c;
+    width:225px;
+    height:200px;
+    float:left;
+    border-radius:6px;
+}
+
+.reds {
+    background:#9c2530;
+    border-top-right-radius:6px;
+    border-top-left-radius:6px;
+}
+
+.event .date {
+    height:132px;
+    width:100%;
+    color:white;
+    text-align:center;
+    line-height:132px;
+    font-size:35px;
+    font-family:'modern', sans-serif;
+}
+
+.event .date-full {
+    background:rgb(35, 35, 35);
+    /*height:68px;*/
+    height:200px;
+    width:100%;
+    border-bottom-right-radius:6px;
+    border-bottom-left-radius:6px;
+    color:rgb(120, 120, 120);
+    text-align: center;
+    line-height:68px;
+    font-size:22px;
+    font-family:'modern', sans-serif;
+    position:relative;
+    bottom:0px;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+/* Second Part of Upcoming box */
+
+.event_info {
+    float:right;
+    width:225px;
+    height:200px;
+}
+
+.event_info .title {
+    padding-top:50px;
+    font-size:18px;
+    text-align: center;
+}
+
+.event_info .dest {
+    font-size:14px;
+    text-align:center;
+}
+
+.date-full p {
+    margin-top:0px;
+    padding-right:10px;
+    padding-left:10px;
+    text-align:center;
+    font-size:12px;
+    color:rgb(155, 155, 155);
+}
+.events_section:hover .date-full {
+    bottom:132px;
+    border-top-right-radius:6px;
+    border-top-left-radius:6px;
+    color:#fff;
+}
