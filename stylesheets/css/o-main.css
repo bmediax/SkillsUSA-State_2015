@@ -3,11 +3,11 @@
 }
 
 a.red-link{
-    color:#9c253f;
+    color:#de2c3c;
 }
 
 a.red-link:hover{
-	color:#de2c3c;
+	color:#9c253f;
 	text-decoration: none;
 }
 

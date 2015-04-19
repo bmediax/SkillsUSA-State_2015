@@ -239,4 +239,36 @@ span.red-link:hover {
   color: #9c253f;
   text-decoration: none; }
 
+.btn-1 {
+  background: #337ab7;
+  border-radius: 6px;
+  padding: 15px 40px;
+  text-align: center;
+  margin: 0 auto; }
+
+.view-img {
+  background: red;
+  height: 300px;
+  width: 990px; }
+
+.slick-prev, .slick-next {
+  color: #fff;
+  background: #194382;
+  border-bottom: 3px solid #143463;
+  margin-top: 10px;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto; }
+
+.slick-prev:hover, .slick-next:hover {
+  background: #183e76; }
+
+.slick-next {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px; }
+
+.slick-prev {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px; }
+
 /*# sourceMappingURL=main.css.map */

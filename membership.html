@@ -2,7 +2,7 @@
 <html>
     <head>
         <!-- Title -->
-        <title> Benson High School Skills USA </title>
+        <title> Advisors And Membership - Benson Skills USA</title>
         
         <!--[if IE]>
             <link rel="stylesheet" type="text/css" href="stylesheets/css/ie.css" />
@@ -26,6 +26,7 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/css/responsive.css" />
         <link rel="stylesheet" type="text/css" href="stylesheets/css/nav.css" />
         <link rel="stylesheet" type="text/css" href="stylesheets/css/o-main.css" />
+        <link rel="stylesheet" type="text/css" href="libs/slick/slick.css" />
         
         <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="57x57" href="imgs/icons/apple-icon-57x57.png">
@@ -39,7 +40,6 @@
         <link rel="apple-touch-icon" sizes="180x180" href="imgs/icons//apple-icon-180x180.png">
         <link rel="icon" type="image/png" sizes="192x192"  href="imgs/icons//android-icon-192x192.png">
         <link rel="icon" type="image/png" sizes="32x32" href="imgs/icons//favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/imgs/icons/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="imgs/icons//favicon-16x16.png">
         <link rel="manifest" href="imgs/icons//manifest.json">
         <meta name="msapplication-TileColor" content="#ffffff">
@@ -56,6 +56,7 @@
         <!-- jQuery & javascript -->
         <script src="js/jquery.js"></script>
         <script src="js/jquery-ui.js"></script>
+        <script src="libs/slick/slick.js"></script>
         <script src="js/functions.js"></script>
         <script src="js/jquery.backstretch.min.js"></script>
     </head>
@@ -90,12 +91,32 @@
                 </ul>
             </nav>
             
+            <script>
+            $(document).ready(function() {
+                $(".view-img").slick({
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    infinite: true,
+                    fade: true,
+                });
+            });
+            </script>
+            
             <!-- Slider -->
             <div id="slider"></div>
             <br>
 			<h1>ADVISORS AND MEMBERSHIP</h1>
 			<div class="sectiondivider"></div>
             <div id="o-wrapper">
+                <br>
+                <center>
+                    <div class="view-img">
+                        <li><img src="imgs/advisor.jpg" alt="Advisors" /></li>
+                        <li><img src="imgs/video.jpg" alt="Membership" /></li>
+                        <li><img src="imgs/box/student.jpg" alt="Membership" /></li>
+                    </div>
+                </center>
+                <br></br>
 				<p class="content">
 				Each Skills USA chapter is lead by a set of advisors. At Benson, our advisors are our technical teachers, lead by Cathy Skach, one of the current Digital Media instructors. 
 				</p>
